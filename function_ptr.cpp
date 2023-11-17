@@ -1,11 +1,14 @@
 #include <iostream>
-
+#include <ctime>
+int foo (int);
 int main ()
 {
-	int a = 9;
-	int b = 19;
-	int c = 20;
-	int d = 21;
-	std::cout << a + b + c + d << std::endl;
+	int num = 0;
+	std::cin >> num;
+	std::cout << " The pow of the num is " << foo (num) << std::endl;
 }
 
+int foo (int num)
+{
+	return num * num
+}
